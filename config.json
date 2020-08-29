@@ -1,0 +1,44 @@
+{
+ "Account": { "Username": "bintangcoy",
+              "Password": "Appollo91"
+},
+
+ "Interface":{ "Base Bet":"0.0005101",
+               "Max Bet":"off", 
+               "Chance":"52.45",
+               "Random":{"Auto": "on",
+                         "Min" : "19.75",
+                         "Max" : "27.15"
+                        },
+
+               "Cl_Seed":{"Auto"       :"on",
+                          "Every_Lose" : "5"
+                         }
+              },
+
+ "BetSet":{ "Bet"   : "L",
+            "H / L" :{"Auto"   : "on",
+                      "On Lose": "0",
+                      "On Win" : "1"
+                     }
+          },
+
+ "Increase" :{ "After Win"  : "1",
+               "After Lose" : "1.6"
+             },
+
+ "Reset"    :{ "If_Win"   : "1",
+               "If_Lose"  : "0"
+             },
+
+ "Stop"    :{ "Balance"  : "1001",
+              "If_Lose"  : "0",
+              "If_Prof"  : "200"
+             },
+
+ "Withdraw" :{"Auto"   : "off",
+              "Initial": "0",
+              "Trigger": "500000000000.00000",
+              "Wallet" : "Dompet"
+             }
+}
